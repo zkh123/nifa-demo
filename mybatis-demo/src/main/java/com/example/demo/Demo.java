@@ -30,7 +30,7 @@ public class Demo {
         SqlSession sqlSession = sqlSessionFactory.openSession();
 
         SupplierMapper supplierMapper = sqlSession.getMapper(SupplierMapper.class);
-        Supplier supplier = supplierMapper.selectSupplier("SUceffc22f2fd840bdb2ccbc4f9713a5f0");
+        Supplier supplier = supplierMapper.selectSupplier("SUa89a3f2587ab438e93b103d7f4ce9982");
         System.out.println("********************8 : " + JSONObject.toJSONString(supplier));
 
         AddressMapper addressMapper = sqlSession.getMapper(AddressMapper.class);

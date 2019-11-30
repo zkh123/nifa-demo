@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50720
 File Encoding         : 65001
 
-Date: 2019-11-30 16:31:54
+Date: 2019-11-30 16:42:12
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -41,7 +41,7 @@ CREATE TABLE `supplier` (
 -- ----------------------------
 -- Records of supplier
 -- ----------------------------
-INSERT INTO `supplier` VALUES ('SUa89a3f2587ab438e93b103d7f4ce9982', '拍拍贷', 'PREPAID_PaymentType', '上海市浦东新区', '黄李俊', '15721463058', '849902930@qq.com', '2019-11-05', '2019-11-29', '2222222222222222222222', 'ENABLE', 'test', '2019-11-15 10:58:43', '2019-11-15 15:37:23', '1');
+INSERT INTO `supplier` VALUES ('SUa89a3f2587ab438e93b103d7f4ce9982', '拍你', 'PREPAID_PaymentType', '上海市浦东新区', '黄大', '15723463052', '849302931@qq.com', '2019-11-05', '2019-11-29', '2222222222222222222222', 'ENABLE', 'test', '2019-11-15 10:58:43', '2019-11-30 16:41:59', '1');
 INSERT INTO `supplier` VALUES ('SUceffc22f2fd840bdb2ccbc4f9713a5f0', '陆金所', 'POSTPAID_PaymentType', '深圳市南山区平安大厦', '陆小妹', '15721463999', 'luxiaomei@qq.com', '2019-11-04', '2019-11-29', '555555555555555555', 'ENABLE', 'test', '2019-11-15 15:38:26', '2019-11-15 15:38:26', '1');
 
 -- ----------------------------
