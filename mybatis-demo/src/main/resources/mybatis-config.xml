@@ -33,5 +33,10 @@
         <mapper resource="com/example/demo/mapper/mapping/GradeMapper.xml"/>
         <mapper resource="com/example/demo/mapper/mapping/StudentMapper.xml"/>
 <!--        <package name="com.example.demo.mapper.mapping"/>-->
+
+<!--        <mapper class="com.example.demo.mapper.StudentMapper"></mapper>-->
+<!--        <mapper class="com.example.demo.mapper.GradeMapper"></mapper>-->
+<!--        <mapper class="com.example.demo.mapper.AddressMapper"></mapper>-->
+<!--        <mapper class="com.example.demo.mapper.SupplierMapper"></mapper>-->
     </mappers>
 </configuration>

@@ -1,4 +1,4 @@
-package demo;
+package com.example.demo;
 
 import com.alibaba.fastjson.JSONObject;
 import com.example.demo.entity.Address;
@@ -24,7 +24,7 @@ import java.util.List;
  */
 public class Demo {
     public static void main(String[] args) throws IOException {
-        String resource = "com/example/demo/mybatis-config.xml";
+        String resource = "mybatis-config.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();
