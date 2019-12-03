@@ -1,0 +1,4 @@
+mvn clean package
+
+
+java -jar property-0.0.1-SNAPSHOT.jar --spring.profiles.active=test

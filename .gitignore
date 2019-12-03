@@ -9,6 +9,13 @@ nifa-demo.iml
 /doc/该项目涉及的知识点总结.docx
 .idea
 
+profiles/target
+profiles/profiles.iml
+
+property/target
+property/property.iml
+
+
 # Log file
 *.log
 

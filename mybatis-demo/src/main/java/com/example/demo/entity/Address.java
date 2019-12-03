@@ -1,5 +1,7 @@
 package com.example.demo.entity;
 
+import org.apache.ibatis.type.Alias;
+
 import java.io.Serializable;
 
 /**
