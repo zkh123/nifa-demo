@@ -1,0 +1,28 @@
+CREATE TABLE `user_info_2` (
+  `user_id` bigint(19) NOT NULL,
+  `user_name` varchar(45) DEFAULT NULL,
+  `account` varchar(45) NOT NULL,
+  `password` varchar(45) DEFAULT NULL,
+  `inserttime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '插入时间',
+  `updatetime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  `isactive` tinyint(1) NOT NULL DEFAULT '1' COMMENT '逻辑删除',
+  PRIMARY KEY (`user_id`),
+  KEY `idx_inserttime` (`inserttime`),
+  KEY `idx_updatetime` (`updatetime`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='用户信息表 /*# Owner: huanglijun ;Manager: huangdada #*/ ';
+
+CREATE TABLE `t_order_1` (
+  `order_id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  PRIMARY KEY (`order_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `t_config` (
+  `config_id` int(16) NOT NULL AUTO_INCREMENT,
+  `para_name` varchar(255) DEFAULT NULL,
+  `para_value` varchar(255) DEFAULT NULL,
+  `para_desc` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`config_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
